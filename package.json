@@ -5,7 +5,7 @@
   "author": "StevenG",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node lib/server.js",
+    "dev": "set NODE_PATH=./lib && nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -wd",
     "test": "jest --watch  --config ./jest.config.js",
     "test0": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand",

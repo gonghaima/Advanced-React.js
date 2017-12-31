@@ -1,8 +1,14 @@
 const path = require('path');
 
 const config = {
+  resolve: {
+    modules:[
+      path.resolve('./lib'),
+      path.resolve('./node_modules'),
+    ]
+  },
   entry: {
-    app: ['babel-polyfill', './lib/components/Index.js']
+    app: ['babel-polyfill', './lib/renderers/dom.js']
   },
   output: {
     path: path.resolve(__dirname, 'public'),
