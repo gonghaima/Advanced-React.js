@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "set NODE_PATH=./lib && nodemon --exec babel-node lib/server.js --inspect",
     "webpack": "webpack -wd",
-    "test": "jest --watch  --config ./jest.config.js",
+    "test": "jest --watch",
     "test0": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand",
     "test1": "node --debug-brk ./node_modules/jest/bin/jest.js --runInBand",
     "test2": "node --debug-brk --inspect ./node_modules/.bin/jest -i --watch",
