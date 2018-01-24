@@ -141,7 +141,7 @@ A year after launch, we're incredibly excited to see an active community forming
       Object {
         "instance": null,
         "key": "95c12a8f6c88953ca8f8a39da25546e6",
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "article": Object {
             "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
@@ -158,7 +158,7 @@ A year after launch, we're incredibly excited to see an active community forming
       Object {
         "instance": null,
         "key": "cc7781c085cf37aabf120098085ff60c",
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "article": Object {
             "authorId": "78ae672985c41fae0ecde0133f41bbfa",
@@ -176,7 +176,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
       Object {
         "instance": null,
         "key": "0a9afe5bb4ecbf4f7f1c77611e9bf1f9",
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "article": Object {
             "authorId": "78ae672985c41fae0ecde0133f41bbfa",
@@ -197,7 +197,7 @@ First, install the global package:",
       Object {
         "instance": null,
         "key": "9b72140f27e62670dd7bdd1a9f61b48e",
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "article": Object {
             "authorId": "335fb02ec8f76c8515821ac9f266d276",
@@ -216,7 +216,7 @@ A year after launch, we're incredibly excited to see an active community forming
       Object {
         "instance": null,
         "key": "f4ab6de6e61c86f03f6fef46f7c407f1",
-        "nodeType": "function",
+        "nodeType": "class",
         "props": Object {
           "article": Object {
             "authorId": "d85577ea34ae50f2dac5347b5219aa23",
@@ -311,7 +311,7 @@ A year after launch, we're incredibly excited to see an active community forming
         Object {
           "instance": null,
           "key": "95c12a8f6c88953ca8f8a39da25546e6",
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "article": Object {
               "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
@@ -328,7 +328,7 @@ A year after launch, we're incredibly excited to see an active community forming
         Object {
           "instance": null,
           "key": "cc7781c085cf37aabf120098085ff60c",
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "article": Object {
               "authorId": "78ae672985c41fae0ecde0133f41bbfa",
@@ -346,7 +346,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
         Object {
           "instance": null,
           "key": "0a9afe5bb4ecbf4f7f1c77611e9bf1f9",
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "article": Object {
               "authorId": "78ae672985c41fae0ecde0133f41bbfa",
@@ -367,7 +367,7 @@ First, install the global package:",
         Object {
           "instance": null,
           "key": "9b72140f27e62670dd7bdd1a9f61b48e",
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "article": Object {
               "authorId": "335fb02ec8f76c8515821ac9f266d276",
@@ -386,7 +386,7 @@ A year after launch, we're incredibly excited to see an active community forming
         Object {
           "instance": null,
           "key": "f4ab6de6e61c86f03f6fef46f7c407f1",
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {
             "article": Object {
               "authorId": "d85577ea34ae50f2dac5347b5219aa23",
