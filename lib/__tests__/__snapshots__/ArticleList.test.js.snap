@@ -71,7 +71,7 @@ A year after launch, we're incredibly excited to see an active community forming
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Article
+        <ArticleContainer
           article={
             Object {
               "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
@@ -82,7 +82,7 @@ A year after launch, we're incredibly excited to see an active community forming
             }
           }
         />,
-        <Article
+        <ArticleContainer
           article={
             Object {
               "authorId": "78ae672985c41fae0ecde0133f41bbfa",
@@ -94,7 +94,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
             }
           }
         />,
-        <Article
+        <ArticleContainer
           article={
             Object {
               "authorId": "78ae672985c41fae0ecde0133f41bbfa",
@@ -109,7 +109,7 @@ First, install the global package:",
             }
           }
         />,
-        <Article
+        <ArticleContainer
           article={
             Object {
               "authorId": "335fb02ec8f76c8515821ac9f266d276",
@@ -122,7 +122,7 @@ A year after launch, we're incredibly excited to see an active community forming
             }
           }
         />,
-        <Article
+        <ArticleContainer
           article={
             Object {
               "authorId": "d85577ea34ae50f2dac5347b5219aa23",
@@ -241,7 +241,7 @@ A year after launch, we're incredibly excited to see an active community forming
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Article
+          <ArticleContainer
             article={
               Object {
                 "authorId": "2c6aa2cfe3449467d329fa17d6ea230f",
@@ -252,7 +252,7 @@ A year after launch, we're incredibly excited to see an active community forming
               }
             }
           />,
-          <Article
+          <ArticleContainer
             article={
               Object {
                 "authorId": "78ae672985c41fae0ecde0133f41bbfa",
@@ -264,7 +264,7 @@ It is not always obvious how a certain pattern can be solved with composition. R
               }
             }
           />,
-          <Article
+          <ArticleContainer
             article={
               Object {
                 "authorId": "78ae672985c41fae0ecde0133f41bbfa",
@@ -279,7 +279,7 @@ First, install the global package:",
               }
             }
           />,
-          <Article
+          <ArticleContainer
             article={
               Object {
                 "authorId": "335fb02ec8f76c8515821ac9f266d276",
@@ -292,7 +292,7 @@ A year after launch, we're incredibly excited to see an active community forming
               }
             }
           />,
-          <Article
+          <ArticleContainer
             article={
               Object {
                 "authorId": "d85577ea34ae50f2dac5347b5219aa23",
