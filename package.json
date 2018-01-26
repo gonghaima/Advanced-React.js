@@ -43,6 +43,7 @@
     "g": "^2.0.1",
     "jest-cli": "^22.0.4",
     "lodash.debounce": "^4.0.8",
+    "lodash.pickby": "^4.6.0",
     "nodemon": "^1.13.3",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
