@@ -5,7 +5,8 @@
   "author": "StevenG",
   "license": "MIT",
   "scripts": {
-    "dev": "set NODE_PATH=./lib && nodemon --exec babel-node lib/server.js",
+    "dev": "set NODE_PATH=./lib && nodemon --exec babel-node lib/server.js --name appDev",
+    "start-prod": "set NODE_ENV=.production NODE_PATH=./build && nodemon --exec babel-node lib/server.js -i max --name appProd",
     "webpack": "webpack -wd",
     "verify-tests": "jest --coverage",
     "test": "jest --watch",
