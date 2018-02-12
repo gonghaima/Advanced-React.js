@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 const config = {
   resolve: {
@@ -8,11 +9,31 @@ const config = {
     ]
   },
   entry: {
-    app: ['babel-polyfill', './lib/renderers/dom.js']
+    vendor:[
+      'babel-polyfill',
+      'react',
+      'react-dom',
+      'prop-types',
+      'axios',
+      'lodash.debounce',
+      'lodash.pickby',
+    ],
+    app: ['./lib/renderers/dom.js']
   },
+  plugins: [
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'vendor',
+      // filename: "vendor.js"
+      // (Give the chunk a different name)
+  
+      minChunks: Infinity,
+      // (with more entries, this ensures that no other module
+      //  goes into the vendor chunk)
+    })
+  ],
   output: {
     path: path.resolve(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: '[name].js'
   },
   module: {
     rules: [
