@@ -9,12 +9,9 @@
     "start-prod": "set NODE_ENV=.production NODE_PATH=./build && nodemon --exec babel-node lib/server.js -i max --name appProd",
     "webpack": "webpack -wd",
     "verify-tests": "jest --coverage",
+    "test": "jest --watch",
     "build-webpack": "webpack -p",
-    "build-node": "babel lib -d build --copy-files",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build-node": "babel lib -d build --copy-files"
   },
   "babel": {
     "presets": [
