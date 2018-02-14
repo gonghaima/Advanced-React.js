@@ -10,6 +10,7 @@
     "webpack": "webpack -wd",
     "verify-tests": "jest --coverage",
     "test": "jest --watch",
+    "build": "webpack -p",
     "build-webpack": "webpack -p",
     "build-node": "babel lib -d build --copy-files"
   },
